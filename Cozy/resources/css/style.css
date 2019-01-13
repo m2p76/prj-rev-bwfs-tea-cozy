@@ -1,0 +1,148 @@
+body{
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+/* header */
+header{
+  display: flex;
+  width: 100%;
+  position: fixed;
+  align-items: center;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  opacity: 0.9;
+}
+
+
+header img{
+  padding-left: 10px;
+  height: 50px;
+
+}
+
+.logo{
+  display: flex;
+  flex-grow: 1;
+}
+
+nav {
+  display: flex;
+  margin-right: 20px;
+
+}
+
+nav a{
+  margin-left: 10px;
+  color: seashell;
+}
+
+/* -----------------*/
+/* Main content */
+.main_content{
+
+  height: 100%;
+  padding-top: 70px;
+
+}
+
+
+.banner{
+  height: 700px;
+  width: 1200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+  background-image: url("../../images/img-mission-background.jpg");
+
+
+}
+
+.banner_text{
+  position: absolute;
+  height: 150px;
+  width: 1200px;
+  background-color: black;
+  margin-top: 250px;
+}
+
+/*.banner h2,h4{
+  vertical-align: ;
+}*/
+
+.heading{
+  width: 1000px;
+  margin: auto;
+}
+
+.gallery_first_line{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 1000px;
+  height: 250px;
+  margin: auto;
+
+}
+.gallery_second_line{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1000px;
+  height: 250px;
+  margin: auto;
+
+}
+
+
+.image_gallery img{
+  width: 300px;
+  height: 200px;
+  margin: 0 10px;
+}
+
+
+.image_gallery span{
+  display: block;
+  margin-top: 10px;
+}
+
+.banner_location{
+  background-image: url("../../images/img-locations-background.jpg");
+  height: 500px;
+  width: 80%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: auto;
+}
+
+.banner_location h1{
+  padding-top: 10px;
+}
+
+
+.city_container{
+  display: inline-block;
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  margin:  15px 40px;
+  opacity: 1;
+}
+
+.contact{
+  height: 200px;
+}
+/* -----------*/
+
+/* footer*/
+footer{
+margin-left: 20px;
+text-align: left;
+}
